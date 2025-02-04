@@ -11,8 +11,8 @@ body {
 
 header {
     margin-bottom: 60px;
- 
 }
+
 
 .container-head {
     display: flex;
@@ -172,4 +172,22 @@ h4 {
     align-content: center;
     position: absolute;
     bottom: 50px;
+}
+
+.container-footer {
+    height: 300px;
+    background-color: #1a1a1a;
+    color: white;
+    display: flex;
+    font-size: 16px;
+    padding: 30px;
+    flex-direction: column;
+}
+
+.bolando {
+    display: flex;
+}
+
+.span-2 {
+    margin-left: 751px;
 }
