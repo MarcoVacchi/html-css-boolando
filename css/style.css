@@ -10,10 +10,7 @@ body {
 }
 
 header {
-    background-color: #ff6900;
-    position: fixed;
-    right: 0px;
-    left: 0px;
+ 
 }
 
 .container-head {
@@ -50,3 +47,60 @@ header {
 .first-section {
     display: flex;
 }
+
+.container {
+    display: flex; 
+    gap: 10px; 
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+.foto-container {
+    display: flex;
+    gap: 10px; 
+    flex-wrap: wrap;
+    max-width: 1380px;
+    max-height: 640px;
+}
+
+.photo-container img {
+    width: 100px; 
+    height: auto; 
+}
+
+.dimensione {
+    height: 640px;
+    width: 450px;
+}
+
+.container {
+    display: flex; 
+    gap: 10px; 
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+.foto-container {
+    display: flex;
+    gap: 10px; 
+    flex-wrap: wrap;
+    max-width: 1380px;
+    max-height: 640px;
+    position: relative;
+}
+
+.foto-container img {
+    width: 450px;
+    height: 640px;
+  
+}
+
+.immagine-secondaria {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    opacity: 0; 
+}
+
+.foto-container:hover .immagine-secondaria {
+    opacity: 1; }
